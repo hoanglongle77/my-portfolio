@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #121212;
+  /* Nền chính - xám đen modern */
+  --color-foreground: #e0e0e0;
+  /* Màu chữ chính - trắng xám dịu mắt */
+  --color-primary: #00ffff;
+  /* Neon cyan - accent chính */
+  --color-secondary: #bb86fc;
+  /* Neon tím - accent phụ */
+  --color-accent: #ff4ecd;
+  /* Neon hồng - dùng nhẹ làm điểm nhấn */
+  --color-muted: #2a2a2a;
+  /* Khối nền phụ (cards, sections) */
+  --color-border: #333333;
+  /* Viền nhẹ cho component */
+  --color-glow: rgba(0, 255, 255, 0.4);
+  /* Glow hiệu ứng hover */
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
