@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-xs text-[var(--color-muted)] pt-6">
+        <p className="text-xs text-gray-400 pt-6">
           © {new Date().getFullYear()} — Built by{" "}
           <span className="text-[var(--color-primary)] font-semibold">
             Hoang Long Le

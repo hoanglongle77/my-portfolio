@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Badges", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Experiences", href: "#experiences" },
-  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {

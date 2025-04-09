@@ -22,7 +22,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="py-20 px-6 sm:px-10 md:px-20 bg-[var(--color-background)] text-[var(--color-foreground)]"
+      className="py-8 px-6 sm:px-10 md:px-20 bg-[var(--color-background)] text-[var(--color-foreground)]"
     >
       <div className="max-w-6xl mx-auto flex flex-col gap-10">
         <h2 className="text-3xl md:text-4xl font-bold tracking-wide text-[var(--color-primary)]">

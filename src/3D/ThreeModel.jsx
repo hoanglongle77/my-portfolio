@@ -20,7 +20,7 @@ const Model = () => {
 const ThreeModel = () => {
   return (
     <Canvas
-      className="absolute inset-0 z-0"
+      className="absolute inset-0 z-0 md:max-w-xl py-8 md:py-0 hidden lg:block border-2 border-[var(--color-primary)] rounded-2xl"
       camera={{ position: [0, 1.5, 5], fov: 45 }}
     >
       <ambientLight intensity={0.4} />
