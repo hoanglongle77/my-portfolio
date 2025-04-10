@@ -6,6 +6,8 @@ import {
   SiTypescript,
   SiMongodb,
   SiExpress,
+  SiAntdesign,
+  SiBootstrap,
 } from "react-icons/si";
 
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs } from "react-icons/fa";
@@ -20,6 +22,8 @@ export const myTechStack = [
   { icon: <SiTailwindcss />, label: "Tailwind", color: "#38bdf8" },
   { icon: <FaNodeJs />, label: "Node.js", color: "#68a063" },
   { icon: <SiMongodb />, label: "MongoDB", color: "#ffca28" },
+  { icon: <SiAntdesign />, label: "Ant Design", color: "#3178c6" },
+  { icon: <SiBootstrap />, label: "Bootstrap 5", color: "#3178c6" },
 ];
 
 export const myProjects = [
@@ -86,20 +90,20 @@ export const mySkills = [
 export const myExperiences = [
   {
     type: "education",
-    year: "2019 - 2023",
+    year: "2019 - 2025",
     title: "Bachelor of Computer Science",
-    desc: "Studied at XYZ University with a focus on frontend, UI/UX, and modern web technologies.",
+    desc: "Studied at University of Greenwich with a focus on frontend, UI/UX, and modern web technologies.",
   },
   {
     type: "work",
-    year: "2022 - 2023",
-    title: "Frontend Intern",
-    desc: "Interned at ABC Tech, building responsive UIs using React and TailwindCSS.",
+    year: "3 Months",
+    title: "Developer ",
+    desc: "OJT at DevPlus, building 2 projects using React and TailwindCSS.",
   },
   {
     type: "work",
     year: "2023 - Present",
     title: "Freelance Developer",
-    desc: "Developing modern web apps with Next.js, Firebase, and Three.js.",
+    desc: "Developing modern web apps with Next.js, TailwindCSS, and MongoDB.",
   },
 ];

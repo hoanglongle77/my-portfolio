@@ -31,7 +31,7 @@ const Experiences = ({ title, dataSource }) => {
               className="mb-10 relative"
             >
               {/* Icon */}
-              <div className="absolute -left-9 top-1 w-6 h-6 flex items-center justify-center bg-[var(--color-background)] border-2 border-[var(--color-primary)] rounded-full shadow-[0_0_10px_var(--color-primary)]">
+              <div className="absolute -left-11.5 top-1 w-10 h-10 flex items-center justify-center bg-[var(--color-background)] border-2 border-[var(--color-primary)] rounded-full shadow-[0_0_10px_var(--color-primary)]">
                 {iconMap[exp.type]}
               </div>
 

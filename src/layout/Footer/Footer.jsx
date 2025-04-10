@@ -9,7 +9,7 @@ const Footer = () => {
           My Portfolio
         </h2>
         <p className="text-sm opacity-80 italic">
-          "Designing interfaces. Developing dreams."
+          "From console.log to production hero!"
         </p>
 
         {/* Social Icons */}
